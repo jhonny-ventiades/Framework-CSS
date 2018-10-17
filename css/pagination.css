@@ -1,0 +1,120 @@
+.EXE_NAV {
+    text-align: center;
+}
+.EXE_NAV nav {
+    width: 100%;
+    padding-top: 0.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    left: 0; top: 0;
+    width:100%;
+    height: 3.5rem;
+    z-index: 10;
+}
+.EXE_NAV nav ul {
+    list-style: none;
+    width: inherit;
+    margin: 0;
+}
+.EXE_NAV ul li:nth-child( 3n + 1), #EXE_MAIN .panel:nth-child( 3n + 1) {
+    background: #f44336;
+}
+.EXE_NAV ul li:nth-child( 3n + 2), #EXE_MAIN .panel:nth-child( 3n + 2) {
+    background: #2196f3;
+}
+.EXE_NAV ul li:nth-child( 3n + 3), #EXE_MAIN .panel:nth-child( 3n + 3) {
+    background: #4caf50;
+}
+.EXE_NAV ul li:nth-child( 3n + 4), #EXE_MAIN .panel:nth-child( 3n + 4) {
+    background: #ff5722;
+}
+.EXE_NAV ul li:nth-child( 3n + 5), #EXE_MAIN .panel:nth-child( 3n + 5) {
+    background: #03a9f4;
+}
+.EXE_NAV ul li:nth-child( 3n + 6), #EXE_MAIN .panel:nth-child( 3n + 6) {
+    background: #8bc34a;
+}
+.EXE_NAV ul li:nth-child( 3n + 7), #EXE_MAIN .panel:nth-child( 3n + 7) {
+    background: #00bcd4;
+}
+.EXE_NAV ul li:nth-child( 3n + 8), #EXE_MAIN .panel:nth-child( 3n + 8) {
+    background: #ffeb3b;
+}
+.EXE_NAV ul li:nth-child( 3n + 9), #EXE_MAIN .panel:nth-child( 3n + 9) {
+    background: #009688;
+}
+
+.EXE_NAV ul li {
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+    border-radius: 2px;
+    line-height: 1.5;
+}
+.EXE_NAV ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.panel {
+    width: 100%;
+    height: 100vh; /* Your DIVs Height */
+    z-index:0;
+    -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.panel h1 {
+    font-family: sans-serif;
+    font-size: 64px;
+    font-size: 4rem;
+    color: #fff;
+    position:relative;
+    line-height: 200px;
+    top: 33%;
+    text-align: center;
+    margin: 0;
+}
+
+/* Smooth CSS3 Scrolling */
+a[ id= "EXE_DIV1" ]:target ~ #EXE_MAIN article.panel {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+a[ id= "EXE_DIV2" ]:target ~ #EXE_MAIN article.panel {
+    -webkit-transform: translateY( -100vh);
+    transform: translateY( -100vh );
+}
+a[ id= "EXE_DIV3" ]:target ~ #EXE_MAIN article.panel {
+    -webkit-transform: translateY( -200vh );
+    transform: translateY( -200vh );
+}
+a[ id= "EXE_DIV4" ]:target ~ #EXE_MAIN article.panel {
+    -webkit-transform: translateY( -300vh);
+    transform: translateY( -300vh );
+}
+a[ id= "EXE_DIV5" ]:target ~ #EXE_MAIN article.panel {
+    -webkit-transform: translateY( -400vh);
+    transform: translateY( -400vh );
+}
+a[ id= "EXE_DIV6" ]:target ~ #EXE_MAIN article.panel {
+    -webkit-transform: translateY( -500vh );
+    transform: translateY( -500vh );
+}
+a[ id= "EXE_DIV7" ]:target ~ #EXE_MAIN article.panel {
+    -webkit-transform: translateY( -600vh);
+    transform: translateY( -600vh );
+}
+a[ id= "EXE_DIV8" ]:target ~ #EXE_MAIN article.panel {
+    -webkit-transform: translateY( -700vh);
+    transform: translateY( -700vh );
+}
+a[ id= "EXE_DIV9" ]:target ~ #EXE_MAIN article.panel {
+    -webkit-transform: translateY( -800vh );
+    transform: translateY( -800vh );
+}
+
+
+
+

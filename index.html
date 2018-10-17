@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+    <title>This is the title of the webpage!</title>
+    <meta charset="ISO-8859-1">
+    <link rel="stylesheet" type="text/css"  href="css/lesson1.css" />
+    <link rel="stylesheet" type="text/css"  href="css/pagination.css" />
+    <link rel="stylesheet" type="text/css"  href="css/board.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="margin: 0px">
+    <a id="EXE_DIV1"></a>
+    <a id="EXE_DIV2"></a>
+    <a id="EXE_DIV3"></a>
+    <a id="EXE_DIV4"></a>
+    <a id="EXE_DIV5"></a>
+    <a id="EXE_DIV6"></a>
+    <a id="EXE_DIV7"></a>
+    <a id="EXE_DIV8"></a>
+    <a id="EXE_DIV9"></a>
+    <div class="EXE_NAV">
+        <nav>
+            <ul>
+                <li><a href="#EXE_DIV1">1</a> </li>
+                <li><a href="#EXE_DIV2">2</a> </li>
+                <li><a href="#EXE_DIV3">3</a> </li>
+                <li><a href="#EXE_DIV4">4</a> </li>
+                <li><a href="#EXE_DIV5">5</a> </li>
+                <li><a href="#EXE_DIV6">6</a> </li>
+                <li><a href="#EXE_DIV7">7</a> </li>
+                <li><a href="#EXE_DIV8">8</a> </li>
+                <li><a href="#EXE_DIV9">9</a> </li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <section id="EXE_MAIN">
+        <article class="panel" id="EXE_DIV1">
+            <h1> Tema 1: Introducción a CSS </h1>
+        </article>
+        <article class="panel" id="EXE_DIV2">
+            <h4 class="split left title">¿Que es CSS?</br> Y</br> ¿Por qué usarlo?</h4>
+            <div class="split right board  ">
+                <ul class="text">
+                    <li>CSS  es usado para definir el estilo de tu página web <br></li>
+                    <li>Extraé todo el formato del estilo del html y lo guarda en un archivo con extensión *.css</li>
+                </ul>
+            </div>
+        </article>
+        <article class="panel" id="EXE_DIV3">
+            <h4 class="split left title">SINTAXIS</h4>
+            <div class="split right board  ">
+                <div class="text" style="padding-left: 40px">
+                   <img src="images/selector.gif"  width="500" >
+                    <p >
+                        Ejemplo:
+                        p {
+                            color: red;
+                            text-align: center;
+                        }
+                    </p>
+                </div>
+            </div>
+        </article>
+        <article class="panel" id="EXE_DIV4">
+            <h4 class="split left title">COLORES,<BR>BACKGROUNDS<BR>BORDES</h4>
+            <div class="split right board  ">
+                <div style="padding-left: 40px">
+                    <p class="dotted" style="background-color:DodgerBlue;">Hello World</p>
+                    <p class="dashed" style="background-color:Tomato;">Lorem ipsum...</p>
+                    <p class="solid" style="background-color:rgb(255, 99, 71);">RGB Salmon</p>
+                    <p class="double"style="background-color:#ff6347;">HEX Salmon</p>
+                    <p class="ridge"style="background-color:hsl(9, 100%, 64%);">HSL Salmon</p>
+                    <p class="inset"style="background-color:rgba(255, 99, 71, 0.5);">RGBA Salmon con transparencia</p>
+                    <p class="mix"  style="background-color:hsla(9, 100%, 64%, 0.5);">HSLA Salmon con transparencia</p>
+                </div>
+            </div>
+        </article>
+        <article class="panel" id="EXE_DIV5">
+            <h4 class="split left title">TAMAÑOS <BR>Y ESPACIOS</h4>
+            <div class="split right board  ">
+                <p CLASS="ex_margins ex_paddings ex_width_height solid">
+                    WEBMASTER
+                </p>
+            </div>
+        </article>
+        <article class="panel" id="EXE_DIV6">
+            <h4 class="split left title">TEXTOS</h4>
+            <div class="split right board " style="padding-top: 100px;">
+                <p class="uppercase left overline normal">Texto de prueba</p>
+                <p class="lowercase center underline oblique">BOLIVIA</p>
+                <p class="capitalize right line-through italic">web masters</p>
+
+            </div>
+        </article>
+        <article class="panel" id="EXE_DIV7">
+            <h4 class="split left title">ICONOS</h4>
+            <div class="split right board " >
+                <div class="text">
+                    <i class="fa fa-cloud"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-car"></i>
+                    <i class="fa fa-file"></i>
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </article>
+        <article class="panel" id="EXE_DIV8">
+            <h4 class="split left title">LINKS <br> Y BOTONES</h4>
+            <div class="split right board " >
+                <div class="text">
+
+                    <a href="default.asp"  target="_blank">Sin CSS :( </a> <br><br><br>
+                    <a href="default.asp" class="button-link" target="_blank">CON CSS <i class="fa fa-heart"></i></a>
+                </div>
+            </div>
+        </article>
+        <article class="panel" id="EXE_DIV9">
+            <h4 class="split left title">LINKS <br> Y BOTONES</h4>
+            <div class="split right board " >
+                <div class="text">
+                    <table>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Ahorros</th>
+                        </tr>
+                        <tr>
+                            <td>Peter</td>
+                            <td>Griffin</td>
+                            <td>Bs. 100</td>
+                        </tr>
+                        <tr>
+                            <td>Lois</td>
+                            <td>Griffin</td>
+                            <td>Bs. 150</td>
+                        </tr>
+                        <tr>
+                            <td>Joe</td>
+                            <td>Swanson</td>
+                            <td>$300</td>
+                        </tr>
+                        <tr>
+                            <td>Cleveland</td>
+                            <td>Brown</td>
+                            <td>Bs. 250</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
